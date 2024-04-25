@@ -1,0 +1,22 @@
+<div class="modal is-active">
+  <div class="modal-background"></div>
+
+  <div class="modal-content">
+    <header class="modal-card-head">
+      <p class="modal-card-title">Titulo</p>
+      <button class="delete" aria-label="close" (click)="closeMe()"></button>
+    </header>
+
+    <section class="modal-card-body">
+      {{ message }}
+    </section>
+
+    <footer class="modal-card-foot">
+      <div class="buttons">
+        <button class="button is-success" (click)="confirmMe()">Confirmar</button>
+        <button class="button" (click)="closeMe()">Cancelar</button>
+      </div>
+    </footer>
+
+  </div>
+</div>

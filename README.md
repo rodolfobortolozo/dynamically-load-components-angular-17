@@ -1,0 +1,3 @@
+# Dynamically Load Components and Pass Data in Angular 17
+
+Angular fornece uma maneira poderosa de carregar componentes dinamicamente em tempo de execução. Isso pode ser particularmente útil quando você tem componentes que precisam ser criados dinamicamente com base nas ações do usuário ou em outras condições de tempo de execução. Neste código utilizando o framework css Bluma, exploro como carregar dinamicamente um componente de modal e passar dados e uma lógica, para poder reaproveitar o código
